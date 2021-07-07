@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  list-style: none;
+  color: #000;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  border: 1px solid;
+  color: #fff;
+  background: #a1a1a3;
+  background: -webkit-gradient(linear, left top, right top, color-stop(6%, #a1a1a3), color-stop(21%, #4d4d50), color-stop(33%, #4d4d50), color-stop(43%, #4d4d50), color-stop(57%, #45454c), color-stop(72%, #414048), color-stop(77%, #403f48), color-stop(81%, #3f3e48), color-stop(100%, #949494), color-stop(100%, #020024), to(#00d4ff));
+  background: linear-gradient(90deg, #a1a1a3 6%, #4d4d50 21%, #4d4d50 33%, #4d4d50 43%, #45454c 57%, #414048 72%, #403f48 77%, #3f3e48 81%, #949494 100%, #020024 100%, #00d4ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h3, h4 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding: 1rem 2rem;
+}
+
+h4 {
+  font-size: .75rem;
+}
+
+div.hr-line {
+  border-bottom: .01rem solid #f0f0f0;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 3rem;
+}
+
+h6 {
+  font-family: sans-serif;
+  font-size: .9rem;
+  letter-spacing: 2px;
+  font-weight: medium;
+}
+
+div.top-header {
+  padding: 1.5rem;
+  margin-top: 0rem;
+}
+
+h1, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid;
+  -webkit-box-shadow: 1px 1px 1px 1px solid black;
+          box-shadow: 1px 1px 1px 1px solid black;
+}
+
+div.hr-line1 {
+  border-bottom: 1px solid #e7e4e4;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: .5rem 0rem;
+}
+
+div.nav-header,
+div.footer-wrapper,
+div.inner-foot-social-medias,
+div.inner-foot-activity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: "";
+      -ms-flex-align: "";
+          align-items: "";
+  -ms-flex-wrap: "";
+      flex-wrap: "";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+}
+
+div.nav-header nav ul li {
+  display: inline-block;
+  border: px solid;
+  padding: .4rem .5rem;
+  margin: .2rem .3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div.nav-header nav ul li:hover {
+  background-color: #747273;
+}
+
+div.nav-header nav ul li a:hover {
+  color: #fff;
+}
+
+div.top-most-inner-hero-box,
+div.middle-inner-hero-box,
+div.lower-inner-hero-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: px solid red;
+  margin: .4rem 0rem;
+  padding: 3.5rem;
+}
+
+div.top-most-inner-items-left,
+div.middle-inner-items-right,
+div.lower-inner-items-left {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70%;
+  border: 1px solid;
+}
+
+div.top-most-inner-items-left {
+  min-height: 120vh;
+}
+
+div.middle-inner-items-right {
+  min-height: 100vh;
+  width: 70%;
+}
+
+div.lower-inner-items-left {
+  min-height: 100vh;
+}
+
+div.top-most-inner-items-left {
+  border: 1px solid;
+  background-image: url("/studio/imgs/Home-Studio.png");
+  -webkit-clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
+}
+
+div.top-most-inner-items-right {
+  border: px solid green;
+  width: 50%;
+  z-index: 1;
+  margin-left: -18rem;
+}
+
+div.top-most-inner-items-right section.number {
+  text-align: center;
+  font-size: 4rem;
+  font-family: serif;
+  margin-top: 18rem;
+}
+
+div.top-most-inner-items-right section.hr-line2 {
+  border-bottom: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+div.top-most-inner-items-right p.small {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+div.top-most-inner-items-right h2 {
+  font-family: serif;
+  text-align: center;
+  font-size: 5rem;
+  color: silver;
+}
+
+div.top-most-inner-items-right p.brief {
+  margin-top: .7rem;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #2e2e2e;
+  background-color: white;
+  line-height: 2rem;
+}
+
+div.middle-inner-items-left {
+  width: 50%;
+  border: px solid green;
+  z-index: 1;
+  margin-right: -13rem;
+}
+
+div.middle-inner-items-left section.number {
+  text-align: center;
+  font-size: 4rem;
+  font-family: serif;
+  margin-top: 18rem;
+}
+
+div.middle-inner-items-left section.hr-line2 {
+  border-bottom: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+div.middle-inner-items-left p.small2 {
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+div.middle-inner-items-left h2 {
+  font-family: serif;
+  text-align: center;
+  font-size: 5rem;
+  color: silver;
+}
+
+div.middle-inner-items-left p.brief {
+  margin-top: .7rem;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #2e2e2e;
+  background-color: white;
+  line-height: 2rem;
+}
+
+div.middle-inner-items-right {
+  background-image: url("/studio/imgs/girl-with-guitar.jpeg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
+}
+
+div.lower-inner-items-left {
+  background-image: url("/studio/imgs/studio-ok.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 1% 100%);
+          clip-path: polygon(0 0, 100% 0, 81% 100%, 1% 100%);
+}
+
+div.lower-inner-items-right {
+  width: 50%;
+  border: px solid green;
+  z-index: 1;
+  margin-left: -13rem;
+}
+
+div.lower-inner-items-right section.number {
+  text-align: center;
+  font-size: 4rem;
+  font-family: serif;
+  margin-top: 18rem;
+}
+
+div.lower-inner-items-right section.hr-line2 {
+  border-bottom: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+div.lower-inner-items-right p.small3 {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+div.lower-inner-items-right h2 {
+  font-family: serif;
+  text-align: center;
+  font-size: 4.5rem;
+  color: silver;
+}
+
+div.lower-inner-items-right p.brief {
+  margin-top: .7rem;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #2e2e2e;
+  background-color: white;
+  line-height: 2rem;
+}
+
+div.inner-foot-social-medias i {
+  padding: 0.5rem;
+  border: px solid;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+div.inner-foot-activity {
+  padding: 1rem;
+}
+
+div.inner-foot-activity button {
+  margin: .2rem .5rem;
+  width: 15%;
+  padding: .5rem 1rem;
+  color: #fff;
+  border: 0px solid;
+  letter-spacing: 1.5px;
+  font-size: .9rem;
+}
+
+@media only screen and (max-width: 1550px) {
+  div.inner-foot-activity button {
+    width: auto;
+    padding: .5rem .3rem;
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+  div.inner-foot-activity button {
+    width: auto;
+  }
+}
+
+div.inner-foot-activity button.like,
+div.inner-foot-activity button.comment,
+div.inner-foot-activity button.share {
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+div.inner-foot-activity button.like:hover,
+div.inner-foot-activity button.comment:hover,
+div.inner-foot-activity button.share:hover {
+  background-color: #585858;
+}
+
+footer {
+  padding: 2rem;
+  margin: 2rem 0rem;
+}
+
+span.material-icons,
+div.right-footer-symbol {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+div.line {
+  border-left: 1px solid white;
+  height: 8vh;
+  margin: 0rem 1rem;
+}
+
+div.site-link {
+  margin-top: 4rem;
+}
+
+div.site-link h5 {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  padding: 0.3rem;
+  margin: 1rem 0rem 0rem 0rem;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+Problems:
+1. Hero Container Nesting became complex 
+2.Like,share & comment Button size & padding problems unresponsive.
+3.My resolution is 1920 x 1080 so that the problems araised!
+4.Music Studio Images searching as usual.
+5.Background Image need to be removed,Images's bg must be removed in order to intersect the two boxes.
+6.left side clip and right side description I was not able to overlap the clip path with headings.
+7.Responsive with the main box.
+8.Padding,margin,font-size probelmatic for smaller screen as always.
+
+
+
+Solutions:
+1.Updated more div to each components and applied display flex with @mixins
+2.As usual media queries added with width = 100% max-width: 1550px ie.max desktop size.
+3.https://www.remove.bg/ used this site to remove the bg of image.
+4.Although I knew the property of z-index but this was the shinning and real time to show I used z-index to overlap the clip path and show the descriptions.
+5.solved by decreasing width & height with media queries.
+
+New Idea Used on this project:
+1.Linear gradient
+2.Clippath
+3.Sperate design for mobile and stylesheet.
+6.min-height and no fixed units.
+7.Only black & white color.
+
+                                                                                               

@@ -1,0 +1,342 @@
+
+   @import 'reset.scss';
+   @import './mixins.scss';
+   @import './variables.scss';
+
+   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ 
+   body{
+    font-family: sans-serif;
+    border: 1px solid;
+    color:#fff;
+    background: rgb(161,161,163);
+    background: linear-gradient(90deg, rgba(161,161,163,1) 6%, rgba(77,77,80,1) 21%, rgba(77,77,80,1) 33%, rgba(77,77,80,1) 43%, rgba(69,69,76,1) 57%, rgba(65,64,72,1) 72%, rgba(64,63,72,1) 77%, rgba(63,62,72,1) 81%, rgba(148,148,148,1) 100%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    }
+
+   h3,h4{
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    padding: 1rem 2rem;
+     }
+
+   h4{
+     font-size: .75rem;
+    }
+
+   div.hr-line{
+    border-bottom: .01rem solid #f0f0f0;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    }
+
+   h1{
+    font-family: serif;
+    font-size: 3rem;
+    }
+
+   h6{
+    font-family: sans-serif;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    font-weight: medium;
+      }
+
+    div.top-header{
+    padding: 1.5rem;
+    margin-top: 0rem;
+    }
+
+    h1,h3,h4,h5,h6{
+    text-align: center;
+    // border: 1px solid;
+    }
+   main{
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    background-color: #fff;
+    color:#000;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px solid black;
+   }
+
+    div.hr-line1{
+    border-bottom: 1px solid #e7e4e4;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 0rem;
+      }
+
+    div.nav-header,
+    div.footer-wrapper,
+    div.inner-foot-social-medias,
+    div.inner-foot-activity{
+    @include flexCenter;
+   }
+   div.nav-header nav ul li {
+    display: inline-block;
+    border: px solid;
+    padding: .4rem .5rem;
+    margin: .2rem .3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+   }
+
+   div.nav-header nav ul li:hover{
+    // border: 1px solid black;
+  
+    background-color: #747273;
+   }
+   div.nav-header nav ul li a:hover{
+    color: #fff;
+   }
+
+  div.top-most-inner-hero-box,
+  div.middle-inner-hero-box,
+  div.lower-inner-hero-box{
+    display: flex;
+    width: 100%;
+    // height: 50vh;
+    border: px solid red;
+    margin: .4rem 0rem;
+    padding: 3.5rem;
+   }
+
+
+  div.top-most-inner-items-left,
+  div.middle-inner-items-right,
+  div.lower-inner-items-left{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    border: 1px solid;
+   }
+
+   div.top-most-inner-items-left{
+    min-height: 120vh;
+   }
+
+   div.middle-inner-items-right{
+    min-height: 100vh;
+    width: 70%;
+   }
+   div.lower-inner-items-left{
+    min-height: 100vh;
+   }
+
+
+   div.top-most-inner-items-left{
+    border: 1px solid;
+    background-image: url("/studio/imgs/Home-Studio.png");
+    clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
+   }
+
+    div.top-most-inner-items-right{
+        border: px solid green;
+        width: 50%;
+        z-index: 1;
+        margin-left: -18rem;
+        section.number{
+            text-align: center;
+            font-size: 4rem;
+            font-family: serif;
+            margin-top: 18rem;
+        }
+        section.hr-line2{
+            border-bottom: 2px solid rgb(0, 0, 0);
+            width: 30%;
+            margin: 0 auto;
+            display: block;
+           
+        }
+        p.small{
+            margin-top: 1.5rem;
+            font-size: 2rem;
+            font-family:  'Dancing Script', cursive;
+            text-align: center;
+        }
+        h2{
+            font-family: serif;
+            text-align: center;
+             font-size: 5rem;
+             color:rgb(192, 192, 192);
+           }
+        p.brief{
+            margin-top: .7rem;
+            font-size: 1.35rem;
+            text-align: center;
+            color:rgb(46, 46, 46);
+            background-color:rgb(255, 255, 255);
+            line-height: 2rem;
+        }
+     }
+
+   div.middle-inner-items-left{
+    width: 50%;
+    border: px solid green;
+    z-index: 1;
+    margin-right: -13rem;
+    section.number{
+        text-align: center;
+        font-size: 4rem;
+        font-family: serif;
+        margin-top: 18rem;
+    }
+    section.hr-line2{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+       
+    }
+    p.small2{
+        margin-top: 1.5rem;
+        font-size: 3rem;
+        font-family:  'Dancing Script', cursive;
+        text-align: center;
+    }
+    h2{
+        font-family: serif;
+        text-align: center;
+         font-size: 5rem;
+         color:rgb(192, 192, 192);
+       }
+    p.brief{
+        margin-top: .7rem;
+        font-size: 1.35rem;
+        text-align: center;
+        color:rgb(46, 46, 46);
+        background-color:rgb(255, 255, 255);
+        line-height: 2rem;
+    }
+   }
+
+   div.middle-inner-items-right{
+    background-image: url("/studio/imgs/girl-with-guitar.jpeg");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);  }
+
+    div.lower-inner-items-left{
+    background-image: url("/studio/imgs/studio-ok.jpg");
+    clip-path: polygon(0 0, 100% 0, 81% 100%, 1% 100%);
+    }
+
+     div.lower-inner-items-right{
+      width: 50%;
+       border: px solid green;
+      z-index: 1;
+      margin-left: -13rem;
+    section.number{
+        text-align: center;
+        font-size: 4rem;
+        font-family: serif;
+        margin-top: 18rem;
+    }
+    section.hr-line2{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }
+    p.small3{
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+        font-family:  'Dancing Script', cursive;
+        text-align: center;
+    }
+    h2{
+        font-family: serif;
+        text-align: center;
+         font-size: 4.5rem;
+         color:rgb(192, 192, 192);
+       }
+    p.brief{
+        margin-top: .7rem;
+        font-size: 1.35rem;
+        text-align: center;
+        color:rgb(46, 46, 46);
+        background-color:rgb(255, 255, 255);
+        line-height: 2rem;
+    }
+
+     }
+
+    div.inner-foot-social-medias i{
+       padding: 0.5rem;
+       border: px solid;
+       font-size: 2rem;
+       cursor: pointer;
+      }
+
+      div.inner-foot-activity {
+          padding: 1rem;
+        }
+
+             div.inner-foot-activity button{
+             margin: .2rem .5rem;
+             width: 15%;
+             padding: .5rem 1rem;
+             color: #fff;
+             border: 0px solid;
+             letter-spacing: 1.5px;
+             font-size: .9rem;
+                   }
+
+     @media only screen and(max-width: 1550px) {
+          div.inner-foot-activity button{
+        width: auto;
+        padding: .5rem .3rem;
+       }
+    }
+
+    @media only screen and(max-width: 320px) and (min-width: 0px) {
+         div.inner-foot-activity button{
+            width: auto;
+        }
+      }
+     div.inner-foot-activity button.like,
+     div.inner-foot-activity button.comment,
+     div.inner-foot-activity button.share{
+    background-color: rgba(0, 0, 0, 0.911);
+    }
+
+    div.inner-foot-activity button.like:hover,
+    div.inner-foot-activity button.comment:hover,
+    div.inner-foot-activity button.share:hover{
+        background-color: rgb(88, 88, 88);
+    }
+
+    footer{
+        padding: 2rem;
+        margin: 2rem 0rem;
+    }
+
+    
+    span.material-icons,
+    div.right-footer-symbol{
+        cursor: pointer;
+        font-size: 4rem;
+    }
+    div.line{
+        border-left: 1px solid white;
+        height: 8vh;
+        margin: 0rem 1rem;
+        
+    }
+    div.site-link{
+    margin-top: 4rem;
+    h5{
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        letter-spacing: 4px;
+        padding: 0.3rem;
+        margin: 1rem 0rem 0rem 0rem;
+        border: 1px solid white;
+    }}

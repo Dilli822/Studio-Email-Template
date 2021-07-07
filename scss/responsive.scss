@@ -1,0 +1,112 @@
+
+
+// // @import 'reset.scss';
+// // @import './mixins.scss';
+// // @import './variables.scss';
+
+// //     //For laptops screens 
+//  @media only screen and (max-width: 1440x) and (min-width: 900px) {
+//    main{
+//      width: 75%;
+//    }
+   
+//   div.top-most-inner-items-right{
+//     width: 60%;
+//       margin-left: 0rem;
+//    }
+
+//    div.middle-inner-items-left{
+//     margin-right: 0rem;
+//     width: 60%;
+//     }
+//   }
+//   div.lower-inner-items-left{
+//     margin-left: 0rem;
+//     width: 60%;
+//   }
+
+
+
+//       //For tablets screen
+//       @media only screen and (max-width: 1024px) and (min-width: 768px) {
+//         main{
+//           width: 85%;
+//         }
+//         div.top-most-inner-items-left,
+//         div.middle-inner-items-right,
+//         div.lower-inner-items-left{
+//           min-height: 50vh;
+//          }
+
+//         div.top-most-inner-items-right{
+//             margin-left: -6.5rem;
+//             section.number{
+//               margin-top: 10rem;
+//           }
+//             p.brief{
+//                 font-size: 1.1rem;
+//             }
+//          }
+         
+//        div.middle-inner-items-left{
+//         width: 60%;
+//         margin-right: -3.7rem;
+//            section.number{
+//           margin-top: 10rem;
+//       }
+//         p.brief{
+//             font-size: 1.1rem;
+//         }
+    
+//        h2{
+//          font-size: 3.5rem;
+//        }
+//         }
+    
+//       div.lower-inner-items-left{
+//         margin-left: -3rem;
+//         width: 70%;
+//         section.number{
+//           margin-top: 10rem;
+//       }
+//         p.brief{
+//             font-size: 1.1rem;
+//         }
+//        h2{
+//          font-size: 2.5rem;
+//        }
+//       }
+//      }
+   
+//      //For ipads,iphone-X
+//         //For laptops screens 
+// //  @media only screen and (max-width: 1440px) and (min-width: 1024px) {
+// //   div.top-most-inner-items-right{
+// //       margin-left: -10rem;
+// //       p.brief{
+// //         font-size: 1.2rem;
+// //     }
+// //    }
+
+// //    div.middle-inner-items-left{
+// //     margin-right: -8.5rem;
+
+// //    h2{
+// //      font-size: 4rem;
+// //    }
+// //    p.brief{
+// //     font-size: 1.2rem;
+// // }
+// //       }
+// //     }
+
+// //   div.lower-inner-items-right{
+// //     margin-left: -9rem;
+// //     width: 60%;
+// //    h2{
+// //      font-size: 3rem;
+// //    }
+// //    p.brief{
+// //     font-size: 1.2rem;
+// // }
+// //   }
