@@ -167,7 +167,7 @@ div.lower-inner-items-left {
 
 div.top-most-inner-items-left {
   border: 1px solid;
-  background-image: url("/studio/imgs/Home-Studio.png");
+  background-image: url("/imgs/Home-Studio.png");
   -webkit-clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
 }
@@ -261,13 +261,13 @@ div.middle-inner-items-left p.brief {
 }
 
 div.middle-inner-items-right {
-  background-image: url("/studio/imgs/girl-with-guitar.jpeg");
+  background-image: url("/imgs/girl-with-guitar.jpeg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
 }
 
 div.lower-inner-items-left {
-  background-image: url("/studio/imgs/studio-ok.jpg");
+  background-image: url("/imgs/studio-ok.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 1% 100%);
           clip-path: polygon(0 0, 100% 0, 81% 100%, 1% 100%);
 }
